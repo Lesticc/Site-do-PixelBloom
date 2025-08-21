@@ -1,0 +1,12 @@
+:root{
+    --colorBackground1: #e3e3e3;
+    --colorBackground2: #3e3e3e;
+    --colorText1: #000000;
+    --colorText2: #eeeeee;
+
+    --colorBackgroundHeader1:rgba(128, 128, 128, 0.3);
+    --colorBackgroundHeader2:rgba(128, 128, 128, 0.7);
+
+    --colorDiscordIcon:#5865F2;
+    --colorGithubIcon:#171515;
+}

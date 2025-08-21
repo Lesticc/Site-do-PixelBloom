@@ -1,0 +1,49 @@
+.main-home{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:3vh;    
+}
+.PixelBloomTitle{
+    margin-bottom:1vh;
+}
+.homeBlock1{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+.tituloHome{
+    margin-bottom:1vh;
+    font-family:'Roboto';
+    font-weight:500;
+    font-size:27px;
+}
+.desc{
+    font-family:'Roboto';
+    font-weight:400;
+    font-size:19px;
+}
+.PixelBloomCanvas{
+    width:90%;
+    height:auto;
+    max-width:442.62px;
+    max-height:337.58px;
+}
+.rightSection{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.subtexto{
+    font-family:'Roboto';
+    font-weight:300;
+    font-size:14px;
+    margin-top:1vh;
+}
+.hr{
+    display:none;
+    background-color:black;
+    width:100%;
+    margin:2vh 0;
+    border:0;
+    height:1px;
+}

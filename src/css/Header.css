@@ -1,0 +1,39 @@
+header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:1vh;
+    margin-bottom:2vh;
+}
+.headerContent{
+    width:80%;
+    max-width:650px;
+    height:8vh;
+    border-radius:9999999px; /*bem como o site da loritta*/
+
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    transition: all 0.2s ease-in-out; 
+}
+.headerS{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.headerLinks{
+    display:flex;
+    justify-content:space-between center;
+}
+.socialButtonHeader{
+    height:6vh;
+    width:6vh;
+    border-radius:999999px;
+    border:0;
+    background-color:rgba(255, 255, 255, 0.3);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:4vh;
+    cursor:pointer;
+    margin:0.5vh;
+}
