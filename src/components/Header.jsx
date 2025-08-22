@@ -138,7 +138,7 @@ export default function Header(){
                         >
                             estou com medo (clica aqui para sair do menu)
                         </motion.button>
-                        <p className="creditosMenu">Site feito por Lestic - 2025</p>
+                        <p className="creditosMenu" style={{color:`var(--colorText${textColor})`}}>Site feito por Lestic - 2025</p>
                     </div>
                 </div>
             </div>
