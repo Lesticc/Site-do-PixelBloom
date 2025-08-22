@@ -16,6 +16,7 @@ import './css/Media.css';
 export default function App() {
   const [color, setColor] = useState(1);
   const [textColor, setTextColor] = useState(1);
+  const [menuOn, setMenuOn] = useState(false);
 
   //1 - modo claro: ou seja, o background é claro e o texto escuro
   //2 - modo escuro: ou seja, o background é escuro e o texto claro
@@ -23,7 +24,7 @@ export default function App() {
   document.getElementById("bodysite").style.backgroundColor = `var(--colorBackground${color})`;
 
   return (
-    <VariablesContext.Provider value={{color, setColor, textColor, setTextColor}}>
+    <VariablesContext.Provider value={{color, setColor, textColor, setTextColor, menuOn, setMenuOn}}>
       <Router>
         <Header/>
         <Routes>

@@ -4,10 +4,11 @@ import { useContext } from 'react';
 export default function Home(){
 
     const {textColor} = useContext(VariablesContext);
+    const {menuOn} = useContext(VariablesContext);
 
     return (
         <>
-            <main style={{color: `var(--colorText${textColor})`}} className='main-home'>
+            <main style={{color: `var(--colorText${textColor})`}} className={`mainHome ${menuOn ? 'hide' : ''}`}>
                 <div className="homeBlock1">
                     <div className="leftSection">
                         <div className="tituloHome">
@@ -22,7 +23,6 @@ export default function Home(){
                     <div className="rightSection">
                         <img src='https://media.discordapp.net/attachments/1407892703592714474/1408070138531549244/canvas.png?ex=68a86701&is=68a71581&hm=478b1dabc6db9b002c267a5eaddb9e898bb6d16138c0917cdc6de138a7b152c5&=&format=webp&quality=lossless&width=1152&height=879' alt="Canvas exenplo do PixelBloom" className='PixelBloomCanvas'/>
                     </div>
-                    (site em desenvolvimento, feito por lestic)
                 </div>
             </main>
         </>

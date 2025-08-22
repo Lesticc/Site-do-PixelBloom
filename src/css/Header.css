@@ -37,3 +37,77 @@ header{
     cursor:pointer;
     margin:0.5vh;
 }
+.linhas{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.linha{
+    width:3vh;
+    background-color:black;
+    height:3.5px;
+    margin-bottom:0.25vh;
+    margin-top:0.25vh;
+    border-radius:9999px;
+    position:relative;
+    transition: all .2s ease;
+}
+.socialButtonMenu{
+    height:6vh;
+    width:unset;
+    min-width:25vh;
+    max-width:30vh;
+    margin:5vh;
+}
+.menuLinks{
+    display:flex;
+    width:100vw;
+    height:100%;
+}
+.menuLinksContent{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:100%;
+}
+.titleLinkMenu{
+    font-family:'Roboto';
+    font-weight:500;
+    font-size:27px;
+    margin-left:1vh;
+}
+a{
+    text-decoration-line:none;
+}
+.creditosMenu{
+    font-family:'Roboto';
+    font-weight:300;
+    font-size:14px;
+    margin-top:2vh;
+    color:var(--colorText);
+    text-align:center;
+}
+.rotate1{
+    transform:rotate(45deg);
+    margin:5px;
+    top:7px;
+}
+.rotate3{
+    transform:rotate(-45deg);
+    margin:5px;
+    bottom:7px;
+}
+.menuButtonHeader{
+    display:none;
+}
+.linkBuyMeACoffeeTitle{
+    font-family:'Roboto';
+    font-weight:500;
+    font-size:19px;
+    margin-left:1vh;
+    color:var(--colorText);
+}
+.estoucommedo{
+    display:flex;
+}

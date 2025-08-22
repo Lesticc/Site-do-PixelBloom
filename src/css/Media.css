@@ -26,4 +26,30 @@
         max-width:90%;
         max-height:unset;
     }
+    .tituloHome{
+        text-align:center;
+    }
+}
+@media (max-width:440px){
+    .socialButtonHeader{
+        display:none;
+    }
+    .menuButtonHeader{
+        display:flex;
+    }
+    .colorButtonHeader{
+        display:flex;
+    }
+    .socialButtonMenu{
+        display:flex;
+    }
+    .estoucommedo{
+        display:none;
+    }
+}
+.hide{
+    display:none;
+}
+body{
+    overflow-x:hidden;
 }

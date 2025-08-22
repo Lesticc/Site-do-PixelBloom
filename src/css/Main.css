@@ -7,9 +7,15 @@
 .PixelBloomTitle{
     margin-bottom:1vh;
 }
+.mainHome{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 .homeBlock1{
     display:grid;
     grid-template-columns:repeat(2, 1fr);
+    width:95%;
 }
 .tituloHome{
     margin-bottom:1vh;
