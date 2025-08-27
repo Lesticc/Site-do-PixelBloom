@@ -3,4 +3,4 @@
 
 - Você pode acessar ele por [pb.lestic.com.br](pb.lestic.com.br) ou [pb-lestic.netlify.app](pb-lestic.netlify.app) caso o outro domínio não funcione.
 
-<img src="https://media.discordapp.net/attachments/1407892703592714474/1408070138531549244/canvas.png?ex=68a86701&is=68a71581&hm=478b1dabc6db9b002c267a5eaddb9e898bb6d16138c0917cdc6de138a7b152c5&=&format=webp&quality=lossless&width=1152&height=879">
+<img src="https://media.discordapp.net/attachments/1407892703592714474/1410400055692754974/canvas.png?ex=68b0e0e9&is=68af8f69&hm=4ee363a7a6983f8aa0358e250af4ba4eb8b1c9c9210924b4209c3bc8a6933b40&=&format=webp&quality=lossless&width=929&height=938">
